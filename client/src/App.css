@@ -1,0 +1,35 @@
+.screen-container {
+ display: flex;
+ width: 100vw;
+ height: 100vh;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+
+}
+
+.video-container {
+  width: 70vw;
+  height: 70vh;
+  background-color: black;
+}
+
+.video-wrapper {
+  justify-content: center;
+  display: flex;
+  width: 960px;
+  height: 270px;
+  border: solid grey 1px;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button-wrapper svg {
+  width: 50px;
+  height: 50px;
+  margin: 0 30px;
+}
