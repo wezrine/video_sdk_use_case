@@ -46,4 +46,4 @@ To clone and initialize this repository, follow these steps:
 
 9. You may now begin using the app.
 
-
+![Example](example.png)
