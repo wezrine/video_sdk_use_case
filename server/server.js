@@ -22,7 +22,6 @@ app.post('/generate', middleware.generateToken, (req, res) => {
 })
 
 app.use((err, req, res, next) => {
-    console.log(err)
     const defaultErr = {
         log: 'unknown error',
         status: 500,

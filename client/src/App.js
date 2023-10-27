@@ -20,7 +20,6 @@ function App(props) {
       client.init('en-US')
       try {
         setLoadingText('Joining Meeting...')
-        console.log(topic, signature, name, password)
         await client.join(topic, signature, name, password);
         const stream = client.getMediaStream();
         setMediaStream(stream);

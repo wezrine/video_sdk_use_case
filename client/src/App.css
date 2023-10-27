@@ -1,3 +1,8 @@
+
+h1 {
+  color: #505061
+}
+
 .screen-container {
  display: flex;
  width: 100vw;
@@ -5,21 +10,22 @@
  align-items: center;
  justify-content: center;
  flex-direction: column;
-
+ background-color: #E6E6F2;
 }
 
 .video-container {
-  width: 70vw;
-  height: 70vh;
+  display: flex;
   background-color: black;
 }
 
 .video-wrapper {
   justify-content: center;
   display: flex;
-  width: 960px;
-  height: 270px;
+  width: 1280px;
+  height: 720px;
   border: solid grey 1px;
+  border-radius: 5px;
+  background-color: black;
 }
 
 .button-wrapper {
@@ -32,4 +38,5 @@
   width: 50px;
   height: 50px;
   margin: 0 30px;
+  cursor: pointer;
 }
